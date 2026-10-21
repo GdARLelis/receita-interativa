@@ -20,15 +20,40 @@
       />
     </header>
     <section>
-      <button popovertarget="segredo">
-        Ver Segredo do Chef
-      </button>
+      <button popovertarget="segredo">Ver Segredo do Chef</button>
       <div id="segredo" popover="auto">
         <h2>O segredo da receita</h2>
         <p>
           Evite adicionar os ovos enquanto a massa ainda estiver muito quente.
         </p>
       </div>
+    </section>
+
+    <section>
+      <h2>Ingredientes</h2>
+
+      <ul>
+        <li>500 g de polvilho azedo</li>
+        <li>1 copo de leite</li>
+        <li>1/2 copo de óleo</li>
+        <li>2 ovos</li>
+        <li>300 g de queijo Minas curado ralado</li>
+        <li>Sal a gosto</li>
+      </ul>
+
+      <label for="acompanhamento"> Escolha um acompanhamento: </label>
+
+      <input
+        id="acompanhamento"
+        list="bebidas"
+        placeholder="Digite sua preferência"
+      />
+
+      <datalist id="bebidas">
+        <option value="Café"></option>
+        <option value="Guaraná"></option>
+        <option value="Doce de Leite"></option>
+      </datalist>
     </section>
   </body>
 </html>
